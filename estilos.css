@@ -1,6 +1,15 @@
 body{
-  background-color: rgb(128,128,128);
+  background-color: transparent;
+  background-image: url("imagenes/damasco.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
   font-family: 'Macondo', cursive;
+}
+.fondo{
+  background-color: rgb(128,128,128);
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 h1{
   color: rgb(35,0,35);
@@ -12,24 +21,69 @@ h1{
 h2{
   font-style: italic;
   font-size: 2em;
+  background-color: rgb(128,128,128);
+  box-sizing: border-box;
+  width: 80%;
+  padding: 0.5%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-decoration: underline;
+}
+.mprin{
+  padding-left: 0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.menu{
+  display: inline-block;
+  border: 2px solid rgb(0,0,0);
 }
 a{
-  color:rgb(50,50,50);
+  color:rgb(12,12,12);
   text-decoration: none;
   font-weight: bold;
+  background-color: rgb(85,0,142);
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 1px 0 1px;
 }
 h3{
   font-family: 'Cinzel', serif;
   font-size: 1.5em;
+  text-decoration: underline;
+  background-color: rgb(128,128,128);
+  box-sizing: border-box;
+  width: 80%;
+  padding: 0.5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 0.5%;
 }
 p{
   font-size: 1.2em;
+  background-color: rgb(128,128,128);
+  text-align: center;
+  box-sizing: border-box;
+  width: 80%;
+  padding: 0.5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 0.5%;
 }
 img{
-  width:500px;
-  margin-left: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  width: 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6px;
+  margin-bottom: 6px;
   border: 15px solid rgb(85,0,142);
 }
 .aida{
@@ -39,7 +93,9 @@ img{
 #tabla{
   background-color: rgb(85,0,142);
   width: 500px;
-  margin-left: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 1.5em;
